@@ -1,0 +1,42 @@
+.containers {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  color: #9E9E9E;
+}
+
+.contact-form {
+  background-color: rgba(25, 25, 25, 5);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+
+
+.contact-container {
+  position: relative;
+  z-index: 99;
+  color: #9E9E9E;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.container,
+.row,
+.col-8,
+.col-4 {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+
+/* ABOUT SECTION...... */

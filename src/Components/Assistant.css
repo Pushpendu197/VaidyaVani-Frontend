@@ -1,0 +1,18 @@
+.bodySection {
+    height: 550px;
+    width: 430px;
+    border: none;
+    outline: none;
+}
+
+.icons_doc {
+    padding: 4px;
+    border-radius: 50%;
+    background-color: #CCEBF6;
+}
+
+.icons_user {
+    padding: 4px;
+    border-radius: 50%;
+    background-color: #Ffcca9;
+}

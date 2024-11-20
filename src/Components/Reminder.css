@@ -1,0 +1,45 @@
+.react-datetime-picker {
+    width: 100% !important;
+    height: 40px;
+    border: none;
+}
+
+.homepageHeader {
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.card {
+    background: url('../assets/medicine.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-left: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.reminderGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+
+}
+
+
+/* .headingS {
+    display: inline-block;
+    border: 1px soid black;
+} */
+
+
+
+.addSection {
+    display: inline-block;
+}
+
+.card:hover {
+    border: 2px solid #FED700;
+
+}

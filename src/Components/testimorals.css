@@ -1,0 +1,80 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+}
+
+.swiper-slide img {
+    height: 100%;
+    object-fit: cover;
+    max-width: 10rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+.swiper-client-msg {
+    position: relative;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.swiper-client-msg::before {
+    content: "";
+    position: absolute;
+    bottom: -4rem;
+    left: 50%;
+    /* transform: translateX(-50%); */
+    border: 2rem solid white;
+    border-color: transparent;
+    border-top-color: #D2DEEB;
+
+}
+
+.swiper-client-msg p::before {
+    content: "\f10d";
+    position: absolute;
+    top: 0;
+    left: 30px;
+    font-size: 2.5rem;
+    color: #ced3ff;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.swiper-client-msg p::after {
+    content: "\f10e";
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    font-size: 2.5rem;
+    color: #ced3ff;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.SubText {
+    font-size: 12px;
+}
+
+.nametext {
+    font-size: 13px;
+}
+
+.swiper-client-data {
+    align-items: center;
+}

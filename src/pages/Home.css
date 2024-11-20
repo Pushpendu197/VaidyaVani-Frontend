@@ -1,0 +1,185 @@
+.experience {
+    font-size: 13px;
+    padding: 2px;
+
+}
+
+.fees {
+    text-align: end;
+}
+
+
+.reminder {
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+    outline: none;
+    border: none;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    background: url('../assets/reminder2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9;
+
+}
+
+.feedback {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    outline: none;
+    border: none;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    background: url('../assets/feedback.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9;
+
+}
+
+.assistant {
+    position: fixed;
+    bottom: 30rem;
+    right: 30px;
+    outline: none;
+    border: none;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid gray;
+    transition: all 0.2s ease;
+    background: url('../assets/medass3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9;
+
+}
+
+.diet{
+   position: fixed;
+    bottom: 10rem;
+    right: 30px;
+    outline: none;
+    border: none;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid gray;
+    transition: all 0.2s ease;
+    background: url('../assets/diet3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9; 
+}
+
+
+
+.chatbox {
+    z-index: 1000;
+}
+
+.xmark {
+    font-size: 50px;
+    color: red;
+    z-index: 99;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 65px;
+}
+
+
+
+/* HEAD CSS */
+section {
+    padding: 100px 200px;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2696e9;
+}
+
+.home .content {
+    z-index: 888;
+    color: #fff;
+    width: 70%;
+    margin-top: 50px;
+}
+
+.home .content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 75px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:1040px) {
+    section {
+        padding: 1000px 20px;
+    }
+
+    .home {
+        z-index: 888;
+        position: relative;
+        right: 15px;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s ease;
+    }
+}
+
+
+
+
+/* tooltip */
+.tooltiptext {
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px;
+    position: absolute;
+    z-index: 10;
+    /* Position the tooltip above the button */
+    left: 40%;
+    margin-left: -150px;
+}
+
+
+
+.button-container {
+    border: 1px solid black;
+    float: right;
+    width: 70%;
+   
+}
