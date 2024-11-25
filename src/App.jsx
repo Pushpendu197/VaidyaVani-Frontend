@@ -15,6 +15,8 @@ import Feedback from './Components/Feedback'
 import Bloodbank from './Components/Bloodbank'
 import Assistant from './Components/Assistant'
 import IndexDiet from './diet/IndexDiet'
+import SideNavbar from './pages/SideNavbar'
+
 
 function App() {
 
@@ -52,6 +54,7 @@ function App() {
     <>
       <div className='px-6 sm:px-[10%]'>
         <Navbar />
+        <SideNavbar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/doctors' element={<Doctors />} />

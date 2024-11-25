@@ -1,18 +1,19 @@
 .bodySection {
-    height: 550px;
-    width: 430px;
-    border: none;
-    outline: none;
+  height: 550px;
+  width: 430px;
+  border: none;
+  outline: none;
+  z-index: 1000;
 }
 
 .icons_doc {
-    padding: 4px;
-    border-radius: 50%;
-    background-color: #CCEBF6;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: #ccebf6;
 }
 
 .icons_user {
-    padding: 4px;
-    border-radius: 50%;
-    background-color: #Ffcca9;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: #ffcca9;
 }

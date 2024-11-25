@@ -1,185 +1,247 @@
 .experience {
-    font-size: 13px;
-    padding: 2px;
-
+  font-size: 13px;
+  padding: 2px;
 }
 
 .fees {
-    text-align: end;
+  text-align: end;
 }
 
-
 .reminder {
-    position: fixed;
-    bottom: 90px;
-    right: 30px;
-    outline: none;
-    border: none;
-    height: 60px;
-    width: 60px;
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: all 0.2s ease;
-    background: url('../assets/reminder2.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 9;
-
+  position: fixed;
+  bottom: 135px;
+  right: 30px;
+  outline: none;
+  border: none;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  background: url("../assets/reminder2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 9;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .feedback {
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    outline: none;
-    border: none;
-    height: 60px;
-    width: 60px;
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: all 0.2s ease;
-    background: url('../assets/feedback.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 9;
-
+  position: fixed;
+  bottom: 3rem;
+  right: 30px;
+  outline: none;
+  border: none;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  background: url("../assets/feedback.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 9;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .assistant {
-    position: fixed;
-    bottom: 30rem;
-    right: 30px;
-    outline: none;
-    border: none;
-    height: 55px;
-    width: 55px;
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    border: 1px solid gray;
-    transition: all 0.2s ease;
-    background: url('../assets/medass3.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 9;
-
+  position: fixed;
+  bottom: 36rem;
+  right: 30px;
+  outline: none;
+  border: none;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  background: url("../assets/medass3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 9;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-.diet{
-   position: fixed;
-    bottom: 10rem;
-    right: 30px;
-    outline: none;
-    border: none;
-    height: 55px;
-    width: 55px;
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    border: 1px solid gray;
-    transition: all 0.2s ease;
-    background: url('../assets/diet3.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 9; 
+.diet {
+  position: fixed;
+  bottom: 14rem;
+  right: 30px;
+  outline: none;
+  border: none;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  background: url("../assets/diet3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 9;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
+.medicom {
+  position: fixed;
+  bottom: 19.5rem;
+  right: 30px;
+  outline: none;
+  border: none;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  background: url("../assets/med.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 9;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
 
+.prescription {
+  position: fixed;
+  bottom: 25rem;
+  right: 30px;
+  outline: none;
+  border: none;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  background: url("../assets/pres2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 9;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
 
+.disease {
+  position: fixed;
+  bottom: 30.5rem;
+  right: 30px;
+  outline: none;
+  border: none;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  background: url("../assets/monitor.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 9;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* .............................. */
 .chatbox {
-    z-index: 1000;
+  z-index: 1000;
 }
 
 .xmark {
-    font-size: 50px;
-    color: red;
-    z-index: 99;
-    background-color: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    line-height: 65px;
+  font-size: 50px;
+  color: red;
+  z-index: 99;
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 65px;
 }
-
-
 
 /* HEAD CSS */
 section {
-    padding: 100px 200px;
+  padding: 100px 200px;
 }
 
 .home {
-    position: relative;
-    width: 100%;
-    min-height: 80vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #2696e9;
+  position: relative;
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #2696e9;
 }
 
 .home .content {
-    z-index: 888;
-    color: #fff;
-    width: 70%;
-    margin-top: 50px;
+  z-index: 9;
+  color: #fff;
+  width: 70%;
+  margin-top: 50px;
 }
 
 .home .content h1 {
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 75px;
-    margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 75px;
+  margin-bottom: 20px;
 }
 
-@media (max-width:1040px) {
-    section {
-        padding: 1000px 20px;
-    }
+@media (max-width: 1040px) {
+  section {
+    padding: 1000px 20px;
+  }
 
-    .home {
-        z-index: 888;
-        position: relative;
-        right: 15px;
-        display: flex;
-        flex-direction: column;
-        transition: 0.5s ease;
-    }
+  .home {
+    z-index: 888;
+    position: relative;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+  }
 }
-
-
-
 
 /* tooltip */
 .tooltiptext {
-    width: 120px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 3px;
-    position: absolute;
-    z-index: 10;
-    /* Position the tooltip above the button */
-    left: 40%;
-    margin-left: -150px;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 3px;
+  position: absolute;
+  z-index: 1000;
+  /* Position the tooltip below the icon */
+  top: 100%; /* Positioning the tooltip above the icon */
+  left: -10px; /* Center the tooltip horizontally relative to the icon */
+  margin-left: -60px; /* Adjust margin to ensure tooltip is centered */
+  font-size: 12px;
 }
 
-
-
-.button-container {
-    border: 1px solid black;
-    float: right;
-    width: 70%;
-   
+/*  */
+.sideNavbar {
+  background: rgba(255, 255, 255, 0.2); /* Set the background color to yellow */
+  padding: 16px; /* Add some padding for spacing */
+  width: 150px; /* Adjust the width as needed */
+  position: fixed; /* Fix the position for a sidebar effect */
+  top: 12%;
+  right: 0;
+  height: calc(
+    100% - 20px
+  ); /* Adjust height to account for bottom padding if necessary */
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  z-index: 100; /* Ensure it appears above other content */
 }

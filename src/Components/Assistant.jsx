@@ -66,11 +66,11 @@ function Assistant() {
     const getGreeting = () => {
         const currentHour = new Date().getHours();
         if (currentHour < 12) {
-            return 'Good morning,Pushpendu! Tell me how can i help you';
+            return 'Good morning,Pushpendu! I am your Chitti Tell me how can i help you';
         } else if (currentHour < 18) {
-            return 'Good afternoon,Pushpendu! Tell me how can i help you';
+            return 'Good afternoon,Pushpendu! I am your Chitti Tell me how can i help you';
         } else {
-            return 'Good evening,Pushpendu! Tell me how can i help you';
+            return 'Good evening,Pushpendu!  I am your Chitti Tell me how can i help you';
         }
     };
 
@@ -161,7 +161,7 @@ function Assistant() {
                     )}
 
                     {listening && (
-                        <div className="text-center text-gray-500 mt-4">Litening ....</div>
+                        <div className="text-center text-gray-500 mt-4">Listening ....</div>
                     )}
                 </div>
 

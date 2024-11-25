@@ -16,6 +16,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
     "pdfjs-dist": "^4.6.82",
     "react": "^18.3.1",
     "react-datetime-picker": "^6.0.1",
